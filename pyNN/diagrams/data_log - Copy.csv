@@ -1,0 +1,4 @@
+extendedPadding,resizeDimensions,randRot,colorJitter,imgPerspective,batchSize,weightDecay,learningRate,activationFunction,epochs,TrainingAcc,ValAcc,TrainingAccSD,ValAccSD,Block,
+TRUE, (180, False, False, False,16,0.001,0.001,0,50,0.931195652,0.896956522,0.043603217,0.035271027,2,***
+TRUE, (224, False, False, False,16,0.001,0.001,0,50,0.89076087,0.879565217,0.096883441,0.079317743,2,
+TRUE, (250, False, False, False,16,0.001,0.001,0,50,0.893586957,0.817391304,0.079580436,0.053533023,2,

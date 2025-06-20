@@ -1,0 +1,1 @@
+normalize,extendedPadding,resizeDimensions,randRot,colorJitter,imgPerspective,batchSize,weightDecay,learningRate,activationFunction,epochs,TrainingAcc,ValAcc,TrainingAccSD,ValAccSD,FINAL_TEST_ACCURACY
