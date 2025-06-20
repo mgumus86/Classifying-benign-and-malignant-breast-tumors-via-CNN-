@@ -1,13 +1,29 @@
 This file explains the major scripts in our project and how to run the CNNs we experimented with; this file also explains how to run the YOLO model for object detection.
 
 Explanation of Folder Structure:
-- Data 		  // This folder holds the original training data
-- DataTEST        // This folder holds the later test data
-- Documents       // This folder has all the documents generated throughout the semester - it also holds the baseline table data
-- pyNN 		  // This folder holds our main scripts that handle the basic CNNs
-- pyPreprocessing_coding_snippets // This folder holds all of our experimental code and coding stubs
-- Ultrasound_test // This is our backup folder for the later test data - it holds the same items as the "DataTEST" folder
-- yolov5 	  // This folder holds the YOLOv5 repository that we used to perform object detection.
+Data/`  
+   Contains original ultrasound training data.  
+   ❗ **Excluded from GitHub** due to privacy/sensitivity.
+
+- `DataTEST/`  
+   Holds test data collected later in the semester.  
+   ❗ **Excluded from GitHub** for privacy and ethical considerations.
+
+- `Documents/`  
+   Includes project reports, baseline tables, and other documentation created during development.
+
+- `pyNN/`  
+   Main Python scripts for training and evaluating convolutional neural networks (CNNs).
+
+- `pyPreprocessing_coding_snippets/`  
+   Experimental code snippets and preprocessing functions used during model development.
+
+- `Ultrasound_test/`  
+   Backup of `DataTEST` directory containing test ultrasound images.  
+   ❗ **Excluded from GitHub** (duplicate sensitive data).
+
+- `yolov5/`  
+   Cloned YOLOv5 repository used for object detection pipeline. Includes custom training and inference code.
 
 The main scripts to be aware of are:
 - pyNN/MAIN_script.py: This script imports our implementation of ResNet, DenseNet, and MobileNet from the CNN_wrappers file and runs them. Please see this file for a short
