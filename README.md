@@ -1,7 +1,8 @@
 This file explains the major scripts in our project and how to run the CNNs we experimented with; this file also explains how to run the YOLO model for object detection.
 
 Explanation of Folder Structure:
-Data/`  
+
+- `Data/`  
    Contains original ultrasound training data.  
    ❗ **Excluded from GitHub** due to privacy/sensitivity.
 
