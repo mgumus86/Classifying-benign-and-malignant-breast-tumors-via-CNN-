@@ -9,9 +9,6 @@ Data/`
    Holds test data collected later in the semester.  
    ❗ **Excluded from GitHub** for privacy and ethical considerations.
 
-- `Documents/`  
-   Includes project reports, baseline tables, and other documentation created during development.
-
 - `pyNN/`  
    Main Python scripts for training and evaluating convolutional neural networks (CNNs).
 
